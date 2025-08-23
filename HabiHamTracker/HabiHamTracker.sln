@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabiHamTracker", "HabiHamTracker\HabiHamTracker.csproj", "{38A6A409-71E3-4833-A76C-198793A13C92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabiHamTracker.AppHost", "HabiHamTracker.AppHost\HabiHamTracker.AppHost.csproj", "{9FED854D-BB06-45B2-99E6-506CFCEC1A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabiHamTracker.ServiceDefaults", "HabiHamTracker.ServiceDefaults\HabiHamTracker.ServiceDefaults.csproj", "{F4226173-56EE-411F-AE2C-38C1376D2855}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A6A409-71E3-4833-A76C-198793A13C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A6A409-71E3-4833-A76C-198793A13C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A6A409-71E3-4833-A76C-198793A13C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A6A409-71E3-4833-A76C-198793A13C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FED854D-BB06-45B2-99E6-506CFCEC1A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FED854D-BB06-45B2-99E6-506CFCEC1A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FED854D-BB06-45B2-99E6-506CFCEC1A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FED854D-BB06-45B2-99E6-506CFCEC1A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4226173-56EE-411F-AE2C-38C1376D2855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4226173-56EE-411F-AE2C-38C1376D2855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4226173-56EE-411F-AE2C-38C1376D2855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4226173-56EE-411F-AE2C-38C1376D2855}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
