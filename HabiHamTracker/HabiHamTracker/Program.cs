@@ -38,7 +38,7 @@ using (var scope = app.Services.CreateScope())
     catch (Exception ex)
     {
        
-        app.Logger.LogError(ex, "Не удалось применить миграции БД");
+        app.Logger.LogError(ex, "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ");
         throw;
     }
 }
@@ -52,7 +52,10 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference("/");
 }
 
-app.UseHttpsRedirection();
+if (!app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseAuthorization();
 

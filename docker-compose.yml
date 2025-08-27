@@ -1,0 +1,29 @@
+services:
+  backend:
+    build:
+      context: ./HabiHamTracker/HabiHamTracker
+      dockerfile: Dockerfile
+    image: habihamtracker-backend:latest
+    container_name: habihamtracker-backend
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  ui:
+    build:
+      context: ./HabiHamTracker/HabiHamTracker-ui
+      dockerfile: Dockerfile
+    image: habihamtracker-ui:latest
+    container_name: habihamtracker-ui
+    depends_on:
+      - backend
+    ports:
+      - "5173:80"
+    restart: unless-stopped
+  
+
+
+ 
