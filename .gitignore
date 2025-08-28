@@ -284,6 +284,8 @@ ServiceFabricBackup/
 
 # Generic database files
 *.db
+*.db-shm
+*.db-wal
 
 # Business Intelligence projects
 *.rdl.data
